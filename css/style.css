@@ -5,6 +5,16 @@
     --bg-footer-bottom: #2c3e50;
 }
 
+.line-bar {
+    background-color: white;
+    height: 4px;
+    width: 15vw;
+    border-radius: 2px;
+}
+.hg-45 {
+    height: 45px;
+}
+
 /* HEADER SECTION */
 
 header {
@@ -16,6 +26,19 @@ header {
 main .start-bootstrap {
     background-color: var(--bg-my-color);
 }
+main .start-bootstrap .img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+main .start-bootstrap .img img {
+    width: 100%;
+}
+main .start-bootstrap .hg-45 {
+    height: 45px;
+}
+
 
 /* ABOUT SECTION */
 
@@ -36,13 +59,6 @@ footer .footer-bottom {
     DEBUG
 */
 
-.debug main .start-bootstrap .img {
-    height: 150px;
-    width: 150px;
-    background-color: red;
-    border-radius: 50%;
-    overflow: hidden;
-}
 
 .debug main .portfolio .row .my-card {
     background-color: red;
