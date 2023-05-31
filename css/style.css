@@ -1,0 +1,55 @@
+/* COMMON */
+:root {
+    --bg-my-color: #1abc9c;
+    --bg-footer-top: #3a546d;
+    --bg-footer-bottom: #2c3e50;
+}
+
+
+/* START BOOTSTRAP SECTION */
+
+main .start-bootstrap {
+    background-color: var(--bg-my-color);
+}
+
+/* ABOUT SECTION */
+
+main .about {
+    background-color: var(--bg-my-color);
+}
+
+/* FOOTER SECTION */
+
+footer .footer-top {
+    background-color: var(--bg-footer-top);
+}
+footer .footer-bottom {
+    background-color: var(--bg-footer-bottom);
+}
+
+/*
+    DEBUG
+*/
+
+.debug main .start-bootstrap .img {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.debug main .portfolio .row .my-card {
+    background-color: red;
+    height: 100px;
+}
+
+.debug main .contact form {
+    background-color: red;
+    height: 200px;
+}
+
+.debug footer .row .my-card {
+    background-color: red;
+    height: 100px;
+}
