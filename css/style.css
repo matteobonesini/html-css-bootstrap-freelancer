@@ -5,6 +5,11 @@
     --bg-footer-bottom: #2c3e50;
 }
 
+/* HEADER SECTION */
+
+header {
+    background-color: var(--bg-footer-bottom);
+}
 
 /* START BOOTSTRAP SECTION */
 
