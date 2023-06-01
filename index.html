@@ -326,11 +326,11 @@
     
                         </div>
     
-                        <form>
+                        <form method="get" action="">
 
                             <div class="form-floating mb-3">
 
-                                <input type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 border-dark" id="floatingInput" placeholder="Name">
+                                <input name="name" type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 border-dark" id="floatingInput" placeholder="Name">
 
                                 <label for="floatingInput">Name</label>
                                 
@@ -338,7 +338,7 @@
 
                             <div class="form-floating mb-3">
 
-                                <input type="email" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 border-dark" id="floatingInput" placeholder="name@example.com">
+                                <input name="email" type="email" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 border-dark" id="floatingInput" placeholder="name@example.com">
 
                                 <label for="floatingInput">Email address</label>
 
@@ -346,7 +346,7 @@
 
                             <div class="form-floating mb-3">
 
-                                <input type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 border-dark" id="floatingInput" placeholder="+39 000 0000000">
+                                <input name="phone" type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 border-dark" id="floatingInput" placeholder="+39 000 0000000">
 
                                 <label for="floatingInput">Phone Number</label>
 
@@ -354,13 +354,13 @@
                               
                             <div class="form-floating">
 
-                                <textarea class="form-control border-top-0 border-start-0 border-end-0 rounded-0 border-dark" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                <textarea name="message" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 border-dark" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
 
                                 <label for="floatingTextarea">Message</label>
 
                             </div>
 
-                            <button class="btn btn-verde text-light mt-4">Send</button>
+                            <button class="btn btn-verde mt-4">Send</button>
 
                         </form>
 

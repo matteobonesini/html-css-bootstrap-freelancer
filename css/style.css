@@ -8,19 +8,21 @@
 .line-bar {
     width: 15vw;
 }
-
 .w-85 {
     width: 85%;
 }
-
 .bg-verde {
     background-color: var(--bg-my-color);
 }
-
 .btn-verde {
     background-color: var(--bg-my-color);
+    color: white;
 }
-
+.btn-verde:hover {
+    background-color: transparent;
+    border-color: var(--bg-my-color);
+    color: var(--bg-my-color);
+}
 .text-verde {
     color: var(--bg-my-color);
 }
@@ -42,14 +44,9 @@ main .start-bootstrap .img {
 main .start-bootstrap .img img {
     width: 100%;
 }
-main .start-bootstrap .hg-45 {
-    height: 45px;
-}
 main .portfolio .my-card img {
     width: 100%;
 }
-
-/* ABOUT SECTION */
 
 
 /* FOOTER SECTION */
@@ -65,30 +62,28 @@ footer .footer-top span {
     line-height: 40px;
     margin: 0 .25rem;
 }
-
 footer .footer-bottom {
     background-color: var(--bg-footer-bottom);
 }
+
+
 
 /*
     DEBUG
 */
 
-
 /* 
+
 .debug main .portfolio .row .my-card {
     background-color: red;
 }
-
 .debug main .contact form {
     background-color: red;
     height: 200px;
 }
-
 .debug footer .row .my-card {
     background-color: red;
 }
-
 .debug .col-auto {
     border: 1px solid red;
 }
