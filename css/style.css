@@ -13,6 +13,10 @@
     width: 85%;
 }
 
+.btn-verde {
+    background-color: var(--bg-my-color);
+}
+
 /* HEADER SECTION */
 
 header {
@@ -61,14 +65,14 @@ footer .footer-bottom {
 */
 
 
-.debug main .portfolio .row .my-card {
+/* .debug main .portfolio .row .my-card {
     background-color: red;
 }
 
 .debug main .contact form {
     background-color: red;
     height: 200px;
-}
+} */
 
 .debug footer .row .my-card {
     background-color: red;
