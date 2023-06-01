@@ -13,8 +13,16 @@
     width: 85%;
 }
 
+.bg-verde {
+    background-color: var(--bg-my-color);
+}
+
 .btn-verde {
     background-color: var(--bg-my-color);
+}
+
+.text-verde {
+    color: var(--bg-my-color);
 }
 
 /* HEADER SECTION */
@@ -25,9 +33,6 @@ header {
 
 /* START BOOTSTRAP SECTION */
 
-main .start-bootstrap {
-    background-color: var(--bg-my-color);
-}
 main .start-bootstrap .img {
     height: 200px;
     width: 200px;
@@ -46,16 +51,21 @@ main .portfolio .my-card img {
 
 /* ABOUT SECTION */
 
-main .about {
-    background-color: var(--bg-my-color);
-}
-
 
 /* FOOTER SECTION */
 
 footer .footer-top {
     background-color: var(--bg-footer-top);
 }
+footer .footer-top span {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 .25rem;
+}
+
 footer .footer-bottom {
     background-color: var(--bg-footer-bottom);
 }
@@ -65,16 +75,22 @@ footer .footer-bottom {
 */
 
 
-/* .debug main .portfolio .row .my-card {
+/* 
+.debug main .portfolio .row .my-card {
     background-color: red;
 }
 
 .debug main .contact form {
     background-color: red;
     height: 200px;
-} */
+}
 
 .debug footer .row .my-card {
     background-color: red;
-    height: 100px;
 }
+
+.debug .col-auto {
+    border: 1px solid red;
+}
+
+*/
