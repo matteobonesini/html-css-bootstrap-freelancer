@@ -20,39 +20,41 @@
         
         <header>
 
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
 
-                <div class="container d-flex justify-content-between">
+                <div class="container-lg">
 
-                  <a class="navbar-brand text-uppercase text-light fs-2 fw-bold" href="#">Start Bootstrap</a>
+                  <a class="navbar-brand fs-3 fw-bold text-uppercase" href="#">Start Bootstrap</a>
 
-                  <div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 
-                    <ul class="navbar-nav flex-row d-none d-md-flex">
+                    <span class="navbar-toggler-icon"></span>
 
-                      <li class="nav-item px-3">
+                  </button>
 
-                        <a class="nav-link text-uppercase text-light  fw-bold" href="#">Portfolio</a>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+
+                      <li class="nav-item fs-6 fw-bold text-uppercase">
+
+                        <a class="nav-link"  href="#portfolio">Portfolio</a>
 
                       </li>
 
-                      <li class="nav-item px-3">
+                      <li class="nav-item">
 
-                        <a class="nav-link text-uppercase text-light  fw-bold" href="#">About</a>
+                        <a class="nav-link fs-6 fw-bold text-uppercase" href="#about">About</a>
 
                       </li>
 
-                      <li class="nav-item px-3">
+                      <li class="nav-item">
 
-                        <a class="nav-link text-uppercase text-light  fw-bold" href="#">Contact</a>
+                        <a class="nav-link fs-6 fw-bold text-uppercase" href="#contact">Contact</a>
 
                       </li>
 
                     </ul>
-
-                    <button type="button" class="btn btn-outline-light d-md-none">
-                        <i class="bi bi-list"></i>
-                    </button>
 
                   </div>
 
@@ -83,15 +85,17 @@
         
                             <div class="col-auto ">
 
-                                <div class="d-flex align-items-center hg-45">
-                                    <div class="line-bar"></div>
+                                <div class="col-auto">
+
+                                    <hr class="border border-white border-3 opacity-100 line-bar rounded">
+    
                                 </div>
 
                             </div>
         
                             <div class="col-auto px-3">
 
-                                <div class="d-flex align-items-center hg-45">
+                                <div class="d-flex align-items-center">
                                     <i class="bi bi-star-fill fs-2"></i>
                                 </div>
 
@@ -99,8 +103,10 @@
         
                             <div class="col-auto">
                                 
-                                <div class="d-flex align-items-center hg-45">
-                                    <div class="line-bar"></div>
+                                <div class="col-auto">
+
+                                    <hr class="border border-white border-3 opacity-100 line-bar rounded">
+    
                                 </div>
 
                             </div>
@@ -116,7 +122,7 @@
 
             </section>
 
-            <section class="portfolio py-5">
+            <section id="portfolio" class="portfolio py-5">
 
                 <div class="container">
 
@@ -127,15 +133,23 @@
                         <div class="row justify-content-center my-3">
         
                             <div class="col-auto">
-                                ------------------
+
+                                <hr class="border border-black border-3 opacity-100 line-bar rounded">
+
                             </div>
         
                             <div class="col-auto px-3">
-                                &star;
+
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-star-fill fs-2"></i>
+                                </div>
+
                             </div>
         
                             <div class="col-auto">
-                                ------------------
+                                
+                                <hr class="border border-black border-3 opacity-100 line-bar rounded">
+
                             </div>
         
                         </div>
@@ -146,36 +160,60 @@
 
                         <div class="col">
 
-                            <div class="my-card"></div>
+                            <div class="my-card">
+
+                                <img src="img/cabin.png" alt="Cabin">
+
+                            </div>
 
                         </div>
 
                         <div class="col">
 
-                            <div class="my-card"></div>
+                            <div class="my-card">
+
+                                <img src="img/cake.png" alt="Cake">
+
+                            </div>
 
                         </div>
 
                         <div class="col">
 
-                            <div class="my-card"></div>
+                            <div class="my-card">
+
+                                <img src="img/circus.png" alt="Circus">
+
+                            </div>
 
                         </div>
 
                         <div class="col">
 
-                            <div class="my-card"></div>
+                            <div class="my-card">
+
+                                <img src="img/game.png" alt="Game">
+
+                            </div>
 
                         </div>
                         <div class="col">
 
-                            <div class="my-card"></div>
+                            <div class="my-card">
+
+                                <img src="img/safe.png" alt="Safe">
+
+                            </div>
 
                         </div>
 
                         <div class="col">
 
-                            <div class="my-card"></div>
+                            <div class="my-card">
+
+                                <img src="img/submarine.png" alt="Submarine">
+
+                            </div>
 
                         </div>
 
@@ -185,85 +223,103 @@
 
             </section>
 
-            <section class="about py-5 text-light">
+            <section id="about" class="about py-5 text-light">
 
                 <div class="container">
 
-                    <div class="about-top text-center">
+                    <div class="w-85 mx-auto">
 
-                        <h2 class="text-uppercase">About</h2>
-
-                        <div class="row justify-content-center my-3">
-        
-                            <div class="col-auto">
-                                ------------------
+                        <div class="portfolio-top text-center">
+    
+                            <h2 class="text-uppercase">About</h2>
+    
+                            <div class="row justify-content-center my-3">
+            
+                                <div class="col-auto">
+    
+                                    <hr class="border border-white border-3 opacity-100 line-bar rounded">
+    
+                                </div>
+            
+                                <div class="col-auto px-3">
+    
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-star-fill fs-2"></i>
+                                    </div>
+    
+                                </div>
+            
+                                <div class="col-auto">
+                                    
+                                    <hr class="border border-white border-3 opacity-100 line-bar rounded">
+    
+                                </div>
+            
                             </div>
-        
-                            <div class="col-auto px-3">
-                                &star;
+    
+                        </div>
+    
+                        <div class="row row-cols-1 row-cols-md-2">
+    
+                            <div class="col pb-3 pb-md-0">
+    
+                                <div class="my-card">Freelancer is a free bootstrap theme created by Start Bootstrap. The download include the complete source files including HTML, CSS and Javascript as well as optional Less stylesheets for easy customization.</div>
+    
                             </div>
-        
-                            <div class="col-auto">
-                                ------------------
+    
+                            <div class="col">
+    
+                                <div class="my-card">Whether you're a student looking tp showcase yur work, a profoessional looking to attract clients, or a graphic artist looking to share your project, this template is the perfet starting point!</div>
+    
                             </div>
-        
+    
+                        </div>
+    
+                        <div class="download text-center mt-4">
+    
+                            <button type="button" class="btn btn-outline-light">Download</button>
+    
                         </div>
 
                     </div>
 
-                    <div class="row row-cols-1 row-cols-md-2">
-
-                        <div class="col pb-3 pb-md-0">
-
-                            <div class="my-card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, iure nostrum officia libero quibusdam ipsa dignissimos totam. Aliquid, magni hic quae quidem itaque aliquam assumenda aut nemo rerum maxime corporis!</div>
-
-                        </div>
-
-                        <div class="col">
-
-                            <div class="my-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ducimus. Quasi adipisci, incidunt odio possimus consequuntur itaque suscipit ratione omnis id iusto assumenda animi alias molestias! Nam minus ipsa delectus?</div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="download text-center mt-4">
-
-                        <button type="button" class="btn btn-outline-light">Download</button>
-
-                    </div>
 
                 </div>
 
             </section>
 
-            <section class="contact py-5">
+            <section id="contact" class="contact py-5">
 
                 <div class="container">
 
-                    <div class="contact-top text-center">
+                    <div class="w-85 mx-auto">
 
-                        <h2 class="text-uppercase">Contact</h2>
-
-                        <div class="row justify-content-center my-3">
-        
-                            <div class="col-auto">
-                                ------------------
+                        <div class="contact-top text-center">
+    
+                            <h2 class="text-uppercase">Contact</h2>
+    
+                            <div class="row justify-content-center my-3">
+            
+                                <div class="col-auto">
+                                    ------------------
+                                </div>
+            
+                                <div class="col-auto px-3">
+                                    &star;
+                                </div>
+            
+                                <div class="col-auto">
+                                    ------------------
+                                </div>
+            
                             </div>
-        
-                            <div class="col-auto px-3">
-                                &star;
-                            </div>
-        
-                            <div class="col-auto">
-                                ------------------
-                            </div>
-        
+    
                         </div>
+    
+                        <form></form>
 
                     </div>
 
-                    <form class="mx-5 mx-sm-0"></form>
 
                 </div>
 

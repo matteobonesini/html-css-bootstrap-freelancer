@@ -6,13 +6,11 @@
 }
 
 .line-bar {
-    background-color: white;
-    height: 4px;
     width: 15vw;
-    border-radius: 2px;
 }
-.hg-45 {
-    height: 45px;
+
+.w-85 {
+    width: 85%;
 }
 
 /* HEADER SECTION */
@@ -38,13 +36,16 @@ main .start-bootstrap .img img {
 main .start-bootstrap .hg-45 {
     height: 45px;
 }
-
+main .portfolio .my-card img {
+    width: 100%;
+}
 
 /* ABOUT SECTION */
 
 main .about {
     background-color: var(--bg-my-color);
 }
+
 
 /* FOOTER SECTION */
 
@@ -62,7 +63,6 @@ footer .footer-bottom {
 
 .debug main .portfolio .row .my-card {
     background-color: red;
-    height: 100px;
 }
 
 .debug main .contact form {
